@@ -10,7 +10,7 @@ int main() {
     *(arr + 2) = 'R';
     *(arr + 3) = 'K';
 
-    arr = realloc(arr, sizeof(int) * 5);
+    arr = realloc(arr, sizeof(char) * 5);
 
     printf("array value:\t");
     printf("%c\t", arr[0]);
